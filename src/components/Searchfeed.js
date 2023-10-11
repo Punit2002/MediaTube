@@ -18,7 +18,7 @@ const Searchfeed = () => {
         <div className="text-white text-3xl font-extrabold mb-5">
         Search Results for <span className="text-red-600">{searchterm}</span> videos 
         </div>
-        <div className="">
+        <div className="ml-[115px]">
           <Videos videos={videos} />
         </div>
       </div>

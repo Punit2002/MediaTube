@@ -11,7 +11,7 @@ const Navbar = () => {
           <img src={logo} width="50px" />
         </Link>
         <Link to={"/"}>
-        <div className="text-white font-bold text-3xl cursor-pointer">MediaTube</div>
+        <div className="text-white font-semibold text-3xl cursor-pointer">Media<span className="text-red-500">Tube</span></div>
         </Link>
       </div>
       <Searchbar/>

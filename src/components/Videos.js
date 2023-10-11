@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Videos = ({ videos }) => {
   return (
-    <div className="flex flex-wrap gap-10 text-white">
+    <div className="flex flex-wrap gap-10 text-white ">
       {!videos ? (
         <div className="flex justify-center items-center w-full h-[100vh]">
           <Loader />
@@ -13,7 +13,7 @@ const Videos = ({ videos }) => {
       ) : (
         videos.map((video) => {
           return (
-            <div className="flex flex-col w-[300px] h-[300px] mt-3 bg-gray-900 rounded-lg ">
+            <div className="flex flex-col w-[280px] h-[300px] mt-3 bg-gray-900 rounded-lg ">
               <div className="relative" style={{paddingBottom:'56.25%'}}>
                 <Link
                   to={

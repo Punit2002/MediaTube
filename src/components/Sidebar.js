@@ -7,7 +7,7 @@ const Sidebar = (props) => {
       {categories.map((category) => {
         return (
           <div
-            className={`flex justify-start w-full mx-auto gap-x-5 mb-6 hover:bg-red-600 px-8 py-2
+            className={`flex justify-start w-full mx-auto gap-x-5 mb-4 hover:bg-red-600 px-8 py-2
           rounded-full transition duration-200 ease-in ${
             props.selectedCategory == category.name ? "bg-red-600" : ""
           } group`}
