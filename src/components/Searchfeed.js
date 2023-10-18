@@ -13,12 +13,12 @@ const Searchfeed = () => {
       .then((data) => setvideos(data.items))
   }, [searchterm]);
   return (
-    <div className='bg-black mt-[60px] p-2 pb-3'>
+    <div className='bg-black mt-[110px] md:mt-[60px] p-2 pb-3'>
        <div className="flex flex-col text-center w-full">
         <div className="text-white text-3xl font-extrabold mb-5">
         Search Results for <span className="text-red-600">{searchterm}</span> videos 
         </div>
-        <div className="ml-[115px]">
+        <div className="">
           <Videos videos={videos} />
         </div>
       </div>

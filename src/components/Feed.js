@@ -17,8 +17,8 @@ const Feed = () => {
   }, [selectedCategory]);
 
   return (
-    <div className="flex flex-row gap-9 mt-[60px]">
-      <div className="w-[15%] border-r-2 ">
+    <div className="flex flex-row gap-9 mt-[120px] md:mt-[60px]">
+      <div className=" w-[45%] sm:w-[30%] lg:w-[15%] border-r-2 hidden md:block">
         <Sidebar
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
